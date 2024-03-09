@@ -1,0 +1,15 @@
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\bin\Debug\net8.0\Xadrez.exe
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\bin\Debug\net8.0\Xadrez.deps.json
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\bin\Debug\net8.0\Xadrez.runtimeconfig.json
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\bin\Debug\net8.0\Xadrez.dll
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\bin\Debug\net8.0\Xadrez.pdb
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\obj\Debug\net8.0\Xadrez.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\obj\Debug\net8.0\Xadrez.AssemblyInfoInputs.cache
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\obj\Debug\net8.0\Xadrez.AssemblyInfo.cs
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\obj\Debug\net8.0\Xadrez.csproj.CoreCompileInputs.cache
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\obj\Debug\net8.0\Xadrez.sourcelink.json
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\obj\Debug\net8.0\Xadrez.dll
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\obj\Debug\net8.0\refint\Xadrez.dll
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\obj\Debug\net8.0\Xadrez.pdb
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\obj\Debug\net8.0\Xadrez.genruntimeconfig.cache
+C:\Users\Marce\OneDrive\Documents\CursoC#\ProjetoXadrez\ChessFolder\obj\Debug\net8.0\ref\Xadrez.dll
