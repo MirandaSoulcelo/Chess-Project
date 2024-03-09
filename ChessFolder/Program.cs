@@ -1,7 +1,5 @@
 ﻿using Tabuleiro;
 
-Position p;
-p = new Position(3,4);
-Console.WriteLine(p);
-
+Board board = new Board(8,8);
+Console.WriteLine(board);
 Console.ReadKey();
