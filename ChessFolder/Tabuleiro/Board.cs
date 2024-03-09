@@ -17,5 +17,10 @@ namespace Tabuleiro
             Colunas = colunas;
             ChessPieces = new ChessPiece[Linhas, Colunas];
         }
+
+        public ChessPiece Piece(int linha, int coluna)
+        {
+            return ChessPieces[linha, coluna];
+        }
     }
 }

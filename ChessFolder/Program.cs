@@ -1,5 +1,7 @@
-﻿using Tabuleiro;
+﻿using Chess_Console;
+using Tabuleiro;
 
 Board board = new Board(8,8);
-Console.WriteLine(board);
+Screen.PrintOutScreen(board);
+
 Console.ReadKey();
