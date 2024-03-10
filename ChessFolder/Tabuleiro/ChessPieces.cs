@@ -11,9 +11,9 @@ namespace Tabuleiro
         public Board Board{get; protected set;}
 
 
-        public ChessPiece(Position position, Board board, Color color)
+        public ChessPiece(Board board, Color color)
         {
-             Position = position;
+             Position = null;
              Board = board;
              Color = color;
              this.QntdMove = 0;        

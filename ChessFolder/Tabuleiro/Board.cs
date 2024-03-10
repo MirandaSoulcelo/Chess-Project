@@ -22,5 +22,10 @@ namespace Tabuleiro
         {
             return ChessPieces[linha, coluna];
         }
+        public void PlacePiece(ChessPiece p, Position pos)
+        {
+            ChessPieces[pos.linha, pos.coluna] = p;
+            p.Position = pos;
+        }
     }
 }
