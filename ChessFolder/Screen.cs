@@ -1,5 +1,6 @@
 using System.Net.NetworkInformation;
 using System.Security.Cryptography.X509Certificates;
+using Chess_Console.Game;
 using Tabuleiro;
 
 namespace Chess_Console
@@ -29,8 +30,17 @@ namespace Chess_Console
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("  A B C D E F G H");
+            Console.WriteLine("  a b c d e f g h");
         }
+        public static ChessPosition ReadChessPosition()
+        {
+            string s = Console.ReadLine();
+            char coluna = s[0];
+            int linha = int.Parse(s[1]+ "");//S NA POSIÇÃO 1 CONCATENADO COM UMA STRING VAZIA PRA FORÇAR  ELE SER UMA STRING
+            return new ChessPosition(coluna, linha);
+
+        }
+
 
         public static void PrintOutPiece(ChessPiece piece)
         {

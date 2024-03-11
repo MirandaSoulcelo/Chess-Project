@@ -4,15 +4,25 @@ using Chess_Console.Game;
 try
 {
 
-Board board = new Board(8,8);
+ChessMatch match = new ChessMatch();
 
-board.PlacePiece(new Tower(board, Color.Preta), new Position(0, 0));
-board.PlacePiece(new Tower(board, Color.Preta), new Position(1,5));
-board.PlacePiece(new King(board, Color.Branca), new Position(0,2));
-board.PlacePiece(new Tower(board, Color.Branca), new Position(3,5));
-board.PlacePiece(new King(board, Color.Preta), new Position(4,2));
+while(!match.Finish)
+{
+    Console.Clear();
+    Screen.PrintOutScreen(match.Board);
+    Console.WriteLine();
+    Console.Write("Digite a posição de origem: ");
+    Position origem = Screen.ReadChessPosition().ToPosition();
+    Console.Write("Digite a posição de Destino: ");
+    Position destino = Screen.ReadChessPosition().ToPosition();
 
-Screen.PrintOutScreen(board);
+    match.ExecutaMovimento(origem, destino);
+
+}
+
+
+
+
 }
 catch(ExceptionBoard e)
 {

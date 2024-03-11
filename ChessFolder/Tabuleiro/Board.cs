@@ -51,6 +51,19 @@ namespace Tabuleiro
             p.Position = pos;
         }
 
+        public ChessPiece ToRemovePiece(Position pos)
+        {
+            if(Piece(pos)== null)
+            {
+            return null;
+            }
+            ChessPiece aux = Piece(pos);
+            aux.Position = null;
+            ChessPieces[pos.linha, pos.coluna] = null;
+            return aux;
+
+        }
+
 
         public bool ValidPosition(Position pos)
         {

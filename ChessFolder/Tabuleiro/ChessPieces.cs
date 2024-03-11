@@ -18,5 +18,10 @@ namespace Tabuleiro
              Color = color;
              this.QntdMove = 0;        
         }
+
+        public void IncrementarQntdMove()
+        {
+            QntdMove++;
+        }
     }
 }
